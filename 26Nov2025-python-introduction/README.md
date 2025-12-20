@@ -9,7 +9,7 @@
 - Python suitable for DB, Cloud, ML, AI, Gen AI, Agentic AI  
 - Interpreted, Object-Oriented, Open-Source  
 
-**IDE Recap:**  
+**IDE Recap:** 
 - VS Code + Extensions  
 - Anaconda (Jupyter, Spyder)  
 - Google Colab  

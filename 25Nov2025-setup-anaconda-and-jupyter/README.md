@@ -11,7 +11,7 @@
 
 # Developer Setup & Concepts Overview
 
-## 1. GitHub Account Creation
+# 1. GitHub Account Creation
 GitHub is the world’s largest code hosting platform for version control and collaboration.
 
 ### Steps to Create a GitHub Account

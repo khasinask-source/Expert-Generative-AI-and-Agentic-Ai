@@ -1,5 +1,5 @@
 
----
+--
 
 - Generative AI: User generates code, text, image, video, audio.  
 - Agentic AI: Virtual developer automates coding, debugging, deployments.  

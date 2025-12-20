@@ -30,7 +30,7 @@
    - Download from: [https://www.python.org/downloads/](https://www.python.org/downloads/)  
    - Verify installation:
 
-   ```bash
+   ``bash
    python3 --version
    ```
 

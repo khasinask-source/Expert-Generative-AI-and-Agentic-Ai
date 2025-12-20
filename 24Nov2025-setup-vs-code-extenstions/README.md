@@ -12,7 +12,7 @@
    - Download and install from: [https://code.visualstudio.com/download](https://code.visualstudio.com/download)
 
 3. **Install Required VS Code Extensions**  
-   Open VS Code → Press **Ctrl+Shift+X** → Search and install:  
+   Open VS Code → Press **Ctrl+Shift+X* → Search and install:  
    - AREPL for Python – Real-time Python scratchpad  
    - autoDocstring – Python docstring generator  
    - Cline – (VS Code extension version currently not supported)  

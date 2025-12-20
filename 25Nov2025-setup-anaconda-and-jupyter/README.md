@@ -74,7 +74,7 @@ A distribution for Python, ML, and Data Science tools.
 
 ---
 
-## 5. Gen AI vs Agentic AI
+# 5. Gen AI vs Agentic AI
 
 ### Generative AI (GenAI)
 - Creates new content  

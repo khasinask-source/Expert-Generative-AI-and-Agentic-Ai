@@ -26,7 +26,7 @@
    - PDF Viewer – View PDF inside VS Code  
    - Python Extension Pack – Full Python dev environment
 
-4. **Install Python 3.12 or 3.13**  
+4. **Install Python 3.12 or 3.13*  
    - Download from: [https://www.python.org/downloads/](https://www.python.org/downloads/)  
    - Verify installation:
 

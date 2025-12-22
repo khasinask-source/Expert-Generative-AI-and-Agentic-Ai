@@ -1,4 +1,4 @@
-**Common Python Errors:**  
+**Common Python Errors:** 
 - NameError, SyntaxError, ZeroDivisionError, IndexError, TypeError, ValueError  
 
 **Slicing:**  

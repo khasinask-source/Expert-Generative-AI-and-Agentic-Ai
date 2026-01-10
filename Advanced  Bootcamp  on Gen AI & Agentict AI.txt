@@ -1639,9 +1639,7 @@ confidence interval divide into 2 part
 regressio model -- after buil ml model -- validat ml model -- statica r2, adjusted r2 
 classification - after ml cmodel -- valieation -- score accurcay -- confusion matrix 
 
-
 standard error - sigma / root n
-
 
 === 8th
 
@@ -1675,10 +1673,128 @@ being a statistician you need to test this use case
 		95% confidence answer is betwee -- range 
 		99% confidence answer is between -- 
 
+z-score == standiarize techniqu to conver mean - 0 & standard deviation 1 
+					machine learning this concept we called as STANDARIZATION ( FEATURE SCALING) 
+					time series model this concept we called as (WHITE NOISE)
+
+z-table == statistic table which help statistician to compute z-test or z-statistica test 
+
+z-test == z-test is one of the testing which apply to population data to find 
+						confience interval for 95% & 99% 
+
+======= 9th
+
+Hypothesis testing 
+
+statement -- in hyd apples are expensive 
+1 apple cost is 1000 -- hypothesis 
+
+	your frient will ask to his few frendin hyd ( mean
+	
+we need to test the hypothesis ( hypothesis testing) 
+
+	 Null hypothesis (H0)
+	 Alternative hypothesis (H1) 
+
+statmenet - apples are expensive 
+
+1kg apple cost is -- 2000 ( hypothesis) -- this hypothesis needs to be tested 
+
+you take random people who ever hyder 
+	average apple cost 200 
+	
+200 == 2000
+200 != 2000 ( reject the null hypothesis) == accept the alternative hypothesis 
+1800 == 2000 ( accept the null hypothesis) 
+
+
+== gen ai, llm , prompt, agent -- stats question 
+== stats ( gen ai
+
+ml -- we buig regression table -- 
+
+stats -- null hypotheis 
+ml -- we need to remove irrelavant attribute 
+
+p-value ( 0.05 we need to consider p-value)
+ml -- multiple linear regression all the stats we will introduce 
+---
+stats will connect to regression -->
+---
+
+13th - 18th -- we have pongol holiday  
+
+MAE ( MEAN ABSOLUTE ERROR )
+		actual - predicted  == 
+		(error = residual = loss function = cost function)
+
+MSE ( MEAN SQUARE ERROR )	
+			(actual - predicted)** 2
+			
+RMSE (ROOT MEAN SQUARD ERROR) 
+			root of (A-P)**2 
+
+how to check regression model is best 
+					R2 & Adjsted R2
+
+how to check best classification model 
+					confusion matrix 
+					
+ANOVA 
+
+
+
+
+==
+1 - P-VALUE 
+2- hypothesis testing 
+						null hypotheis 
+						alternative hypothessis 
+						accept the null hypothe  ( close towards mean)
+						reject the null hypothesis (far from mean) 
+3- mae 
+	mse 
+	rmse
+	r2
+	adjusted r2 
+	r2 & adjusted r2 range is 0-1 then regression model would be accurate 
+
+4 - classifcation model we must need to check confusion matrix 
+		what is confusion matrix > at ml 
+			tp (true +Ve )
+			tn (true -ve)
+			fp (false +ve) 
+			fn (false -ve) 
+			
+
 	
 
 
 			
+
+
+	
+
+
+
+machine learnin g-->
+		Regression -- ml developer you build regressioon model you need to check model is accuracy or not
+								base on r2, adjusted r2, rmse 
+								
+								
+		performance measure of regression ?
+		
+		classifcation -- performance measure 
+				confusion matrix | 			after my expalna matrix no more confusion
+				
+					
+stats -- may feel boar ( this is one ask in inter ) 
+					
+
+		
+
+			
+
 
 
 

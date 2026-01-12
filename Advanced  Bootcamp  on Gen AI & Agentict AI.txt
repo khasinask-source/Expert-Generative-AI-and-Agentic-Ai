@@ -1789,11 +1789,129 @@ machine learnin g-->
 				
 					
 stats -- may feel boar ( this is one ask in inter ) 
-					
 
-		
+==== 10th
 
+ANOVA 
+SSE 
+SSR
+SST 
+R2
+ADJSTED R2 
+REGRESSION TABLE 
+
+statistic towards ml understaand 
+Intro to ml 
+model 
+
+SSE -- actual point - predicted for all the datapoint 
+SSR - predicted point - 	avg for all the datatpoint 
+SST -- actual - avg 
+SST = SSE + SSR 	
+
+10lakh records-- you never calculatre manually thats why we introduce to framwork 
+
+when ever you build any regression model make sure regressio model accrtacy should be 0-1  
+	you need to rebuild model againg
+
+if you work with multiple variable then you need to apply adjsuted r2
+
+R2 > Adjusted R2 
+range is alwasy between 0-1 
+
+stats for ml what are topics we arecompelte d-13
+
+==== 12th 
+
+machine learning -- machine will learns from historical data 
+
+DATA -->
+
+	HISTORICAL DATA - till today 
+			TRAINING PHASE 
+			TESTING PHASE 
+	FUTURE DATA -- from tomorrow 
+			VALIDATION PHASE 
 			
+what is machine leanring 
+what is tradianla learning 
+what is historical data 
+what is future data 
+type of machine learning -- regression & classification -- regression, clasificaiton & clustering 
+
+historical data -- training phase & testing phase 
+
+amazon.com -- first time (select some ite) 
+relogin -- same item would reflect 
+
+machin are learning from histroical data 
+
+training phase 
+testing phase 
+
+how to train the data to machine to build ml algorithm 
+
+--------
+ML WORKFLOW OR ML | data preproceissing PIPELINE -->
+-------
+1- dataset - done 
+2- independent variable (x) & dependent variable(y)  - done 
+3- x --> x_train & x_test  
+4- y -->  y_train & y_test
+5- divide the data into 80-20 |70-30 | 75-25 
+
+who will not understan the guys who didnt learne eda -- they never understand 
+eda -- foundation to ml 
+those who eda thye love this class  -- to be honest 
+==== 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=======
+LIST OF COMPLETED TOPICS -->
+=======
+1- Population , Sample --> 
+			samping technique & Inference technique 
+2- Descriptive stats -->
+			central tendency, skewness, kurtois, variance, standard deviation, covariance ( coralation) 
+3- inferential stats --> 
+			prob, distribution, confidence interval, ztest, ttest, ztable, ttable, zscore, p-value 
+4- advanced stats -->
+			hypothesis testing - H0 , H1 or Ha , accept null hypothe ( close mean) reject H0 (far mean)
+			mae, mse, rmse, graphical representation towards ml for regression line, y = mx + c | y^ = mx +C 
+			anova, ssr, sst, sse, r2, adsted r2, regression table 
+5- Frontend part -- stramlit, gradio
+6 - Data anlaysis library -- Numpy, Matplotlib, Pandas, Seaborn
+7- Eda technique -- variable idntification , univariate, bivarite, outlier , 
+									missing value treatment, imputation technique, transformer, variable creation 
+8- python -- basic python , advance -- loops, function , function, local, global 									
+
+9- 
+	
+			
+
 
 
 

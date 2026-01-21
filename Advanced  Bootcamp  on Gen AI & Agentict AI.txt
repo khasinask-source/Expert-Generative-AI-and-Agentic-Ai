@@ -1863,9 +1863,198 @@ ML WORKFLOW OR ML | data preproceissing PIPELINE -->
 who will not understan the guys who didnt learne eda -- they never understand 
 eda -- foundation to ml 
 those who eda thye love this class  -- to be honest 
-==== 
+
+==== 19th
+
+data processing pipeline -->
+--
+1- dataset --  imported 
+2- independent variable(x) & dependen variable (y) - done 
+3- data cleaning ( missing eda technique) 
+4- x -- x_train & x_test 
+5- y -- y-train & y_test 
 
 
+ml model pararmeter vs llm model parameter 
+simpleimputer which i call from sklearn.imputer
+
+which helps to fill missing value 
+
+sklearn.impute 
+simpleimputer 
+fit & transform -- 
+
+parameter tunning -- system bydefault considering mean strategy 
+hypererparameter tunning -- user change the system parameter to median 
+
+when the values are suffle does it impact on accruacy ?? 
+
+ml devloper some time when you do parameter tunning model accuracy -- 70% 
+		client want 80% 
+	
+on that case you must need to use hyperparameter tunning 
+
+
+ml code -- 20 day i will make you expert ( experienced ml developer ) 
+dataprocessing pipeline 
+parameter tunning in ml model 
+hypererparameter in ml model 
+
+feature engineering -- eda techniques 
+feature selection -- rfe 
+feature scaling -- normalization, standarization 
+
+=== ML 
+
+REGRESSION model -
+		simple linear regression 
+		multiple linear regression 
+		polynomial regression 
+		regularization ( l1, l2) 
+		time series regression before rnn concept  
+		ann regression 
+		
+regression project - 14 algoriytm at one go  
+
+CLASSIFICATION model
+		logistic 
+		svm ( support vector machine)
+		knn ( k nearest neighbour)
+		decission tree 
+		random forest 
+		naive bayes (baysian theorem) 
+		xgboost 
+		lgbm 
+		ann classifier 
+		
+CLUSTERING model 
+	pca 
+	kmeans clustering 
+	hierarchical clustering 
+	
+mlops
+cicd project 
+	
+AI section 
+	nlp
+	dl
+	nn
+	compter vison 
+	
+gen ai 
+
+llm 
+
+prompt
+
+agentic ai 
+
+ml -- supervised learning -- model inteacts with strcuture data 
+ai -- unsuperivised learning -- model interacts text, image, video, streaming, api 
+gen ai, agentic ai -- reinforcement learning ( model interactis with envrionment) 
+
+after complete -- ml has less job -- automized ml model 
+
+15+ -- how to integrate this learing in day to day work 
+	eco system -- managment listen to you 
+	
+do not connect java -- ai, 
+		data architecture a-- ai 
+		
+sklearn framework --
+sklearn.imputer 
+sklearn.model_selection
+sklearn.preprocessing 
+
+xgboost, lgbm 
+
+=== 20th 
+
+simple linear regression algorithm 
+y = mx + c 
+	
+	x = 3 & y = 3.6 & m = 0.4 can you calculate c ? 
+
+	y = mx + c 
+	c = y - mx 
+	c = 2.4 
+	
+y^ = 0.4x +  2.4 
+
+how to get best fit line 
+y^ = mx + c 
+
+Simple linear regression model we will be using only 2 variables
+how to implate these mat
+
+you ml algoriytm in each & every business 
+
+algorithm are same -- differnence dataset 
+ml concept -- dataset domain will change 
+
+we import dataset
+x, y 
+xtrain, xtest, ytrain, ytest -- 80-20 
+
+train the data ( x_train & y_train)
+linear aregression algo 
+regressor model we built
+
+====  21st 
+
+bias, variance , 
+what ever stats concept i explained those things we will introduce in the practicle 
+how to save the model using pkl file 
+what is pkl file how to save entire model to object 
+
+===== 
+are train the data or test data 
+
+trin the data -- x_train, y_train == we must get one score ( training score) 
+bias == training point 
+
+test the data -- x_test, y_test == we must get test score ( test score ) variance 
+
+bias -- training data 
+variance -- testing data 
+
+bias - 0.94 variance - 0.98 -- a  ==> best fit model ( low bias low variance) 
+bias - 0.94 variance - 0.34 -- b ==> high bias low variance ==> underfitting model 
+bias - 0.43 variance - 0.91 -- c ==> low bias high variance ==> overfitting model 
+
+R2 -- 0.94 | Bias -- 0.94 | variance - 0.98 
+once final stage we confirmed we build best linear regression model 
+
+
+can you please explained what be  dataset size where you build ml models ? 
+		 bring the answer tomorrow ? clear
+		 
+=== 22nd 
+		 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
 
 
 
@@ -1908,27 +2097,7 @@ LIST OF COMPLETED TOPICS -->
 									missing value treatment, imputation technique, transformer, variable creation 
 8- python -- basic python , advance -- loops, function , function, local, global 									
 
-9- 
 	
-			
-
-
-
-
-
-
-
-
-
-
-	
-					
-
-				
-			
-					
-					
-			
 	
  
 
@@ -1942,47 +2111,7 @@ LIST OF COMPLETED TOPICS -->
 
  
 
-			
 		
-		
-
-		
-		
-		
-
-
-
-
-
-
-	
-	
-	
-			
-
-
-
-
-		
-		
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
 
 
 ----

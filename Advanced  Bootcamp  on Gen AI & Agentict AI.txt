@@ -2030,13 +2030,68 @@ can you please explained what be  dataset size where you build ml models ?
 		 bring the answer tomorrow ? clear
 		 
 === 22nd 
-		 
+
+50 line code -- we built model regressor which holds slr algoriytm 
+algoritm was fited on x train , ytrain 
+
+train r2 | test r2 - 0.9  (range of r2 0-1) 
+		
+57 ine code you wrote -- size 1mb, 10mb
+
+pickle file -- binary file -- code size will reduce 1kb ( while front ) front end user response should be faster 
+
+A pickle file in Python is a file used for storing serialized Python objects in a binary format. The pickle module converts a Python object hierarchy (like a dictionary, list, or custom class instance) into a byte stream, a process called pickling or serialization. 
+
+what is proper way wirithe code so that it looks like 
+
+make sure you save all the file one folder -- excel, dataset, .pkl. backed end, 
+ 
+ in this project we used only 2 attribute -- y = mx + c ( x- iv  | y - dv) 
+ no orgnzation using 
+ ---
+ lets introuce mutliple linear regression algorithm -->
+ ----
+  practicle -- how to find out m , c 
+  without reg model you canot find slope & intercept 
+ if you any error ( vs code -- ml folder -- regression model - slr -- past all the code 
+python3 streamlit run app.py 
+
+=== html, css, djago, flask () 
+== chatgpt stremalit , google gemin -- power ful
+---
+multiple linear regression algorithm -->
+----
+y = m1x1 + m2x2 + m3x3 + m4x4 + mnxn 
+==== 
+
+slr project -- 3 days -- we underst indepht of ecosyste how ml mode predict 
+
+mlr -- multiple linear regresson 
+
+train the data -- trained model -- user , ml developer train 
+
+---
+problem statment or use case -->
+---
+being ml devloer, datasciencetst, every oragnization in the world they must have inversetme on mutliple portfolio 
+being you have to give suggest to redice more invest cost to save compnay losses 
+you build ml model and which concept you will apply to find out best portfolio best attribute to satisfy company needs 
+
+1- I will shared the dataset 
+2- we will ml model 
+3- stats api 
+4- recursive feature elimination ( backward ellimination) 
+5- if we removed unimporte portfolio attrbute 
+6- how did we find out irrelatve attreibute to my busines 
+7- p-value 
+
+
+
+
+
 
 
  
-
-
-
 
 
 

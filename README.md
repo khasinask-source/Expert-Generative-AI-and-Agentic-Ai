@@ -63,7 +63,7 @@ https://learn.nareshit.com/users/sign_in
 
 ## Push changes to remote repository
 ```bash
-DATE='day-36-37-2026Jan20-21-ml'
+DATE='day-36-37-38-2026Jan20-21-22-ml'
 cd /Users/venkat/workspace/gitRepos/python-genAi-agenticAI
 mkdir -p ${DATE}
 

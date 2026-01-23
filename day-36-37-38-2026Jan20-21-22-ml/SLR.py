@@ -96,12 +96,12 @@ r_square = 1 - SSR/SST
 print(r_square)
 
 # bias
-bias = np.mean((y_pred - y) ** 2)
+bias = regressor.score(x_train, y_train)
 print(bias)
 
 # variance
-variance = np.mean((y_pred - np.mean(y_pred)) ** 2)
-print(variance)
+variance = regressor.score(x_test, y_test)
+print(variance) 
 
 from sklearn.metrics import mean_squared_error, mean_absolute_error
 import pickle
@@ -114,3 +114,12 @@ print(f"Training Score (R^2): {bias:.2f}")
 print(f"Test Score (R^2): {variance:.2f}")
 print(f"Training MSE: {train_mse:.2f}")
 print(f"Test MSE: {test_mse:.2f}")
+
+# Save the trained model to disk
+filename = 'linear_regression_model.pkl'
+with open(filename, 'wb') as file:
+    pickle.dump(regressor, file)
+print(f"Model has been pickled and saved as linear_regression_model.pkl")
+
+import os
+print(os.getcwd())

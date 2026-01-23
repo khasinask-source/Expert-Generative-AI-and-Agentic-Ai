@@ -63,7 +63,7 @@ https://learn.nareshit.com/users/sign_in
 
 ## Push changes to remote repository
 ```bash
-DATE='day-36-37-2026Jan20-21'
+DATE='day-36-37-2026Jan20-21-ml'
 cd /Users/venkat/workspace/gitRepos/python-genAi-agenticAI
 mkdir -p ${DATE}
 
@@ -95,7 +95,8 @@ python3.12 -m venv .venv
 source .venv/bin/activate
 python3.12 -m pip install --upgrade pip
 
-python3.12 -m pip install streamlit
+python3.12 -m pip install streamlit scikit-learn
 
 python3.12 -m streamlit run app.py
 ```
+ 

@@ -53,3 +53,32 @@ svr_reg.fit(X, y)
 
 svr_model_pred = svr_reg.predict([[6.5]])
 print(svr_model_pred)
+
+# knn regression model 
+from sklearn.neighbors import KNeighborsRegressor
+# knn_reg = KNeighborsRegressor()
+# knn_reg = KNeighborsRegressor(n_neighbors=3, weights='distance')
+knn_reg = KNeighborsRegressor(n_neighbors=4)
+knn_reg.fit(X, y)
+
+knn_model_pred = knn_reg.predict([[6.5]])
+print(knn_model_pred)
+
+# dtr model
+from sklearn.tree import DecisionTreeRegressor
+dtr_reg = DecisionTreeRegressor()
+#dtr_reg = DecisionTreeRegressor(criterion='absolute_error', splitter='random')
+dtr_reg.fit(X, y)
+
+dtr_model_pred = dtr_reg.predict([[6.5]])
+print(dtr_model_pred)
+
+
+# rfr model
+from sklearn.ensemble import RandomForestRegressor
+# rfr_reg = RandomForestRegressor()
+rfr_reg = RandomForestRegressor(random_state = 0)
+rfr_reg.fit(X, y)
+
+rfr_model_pred = rfr_reg.predict([[6.5]])
+print(rfr_model_pred)

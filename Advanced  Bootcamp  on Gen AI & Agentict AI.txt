@@ -2256,13 +2256,103 @@ overfittin & underfit when we split the data | hear we are not split the data
 
 
 regression -- svr , knn regressor , dt regressor , rf regressor 
-
 classification - svm , knn classifier, dt classifier , rf classifier 
 
-			
+==== 27th
 
+Real time how to implamenet all ml regression mode in one dataset. 
+we compare accuracy of all the models  
 
+we just build model for comparision  | I will explain math for algo once we finish this  
+---
+For employee database if i build ranking table -->
+---	
+Knn model == 190 ( neigbour = 4) 
+Poly model == 174.8 ( degree = 5)
+Svr model == 164 ( poly kernal, degree = 5) 
+Rfr model == 158
+Dtr model == 150 
 
+= we build reg model , compare all other model & we notices about all hyperparameter of all the models 
+
+CLASSIFICATION -- BINARY 
+take one algorit -- 80% 
+hyperparm ( evbery algoriytm -- same parameter) 
+
+performance measure of regression -- R2, adjusted r2, 0-1 
+performance measure of classification -- confusion matrix 
+
+CONFUSION MATRIX == matrix + confusion 
+
+confusion matrix will be built on (y_test vs y_pred )
+
+train the data and writ - x_train & y_train 
+pass x_test to generatre y_pred ( predicted data) 
+
+y_test (actual data) ||  y_pred ( predicted data)
+
+confusion matrix --> TP | TN | FP | FN 
+
+true +Ve ( TP)  
+false +Ve (FP) 
+true -ve ( TN)
+false -ve (FN)  
+
+	model accuracy -- tp + tn / (tp+tn+fp+fn) == (tn + tp / tn + tp + fn + fp)
+	error rate = (fp+fn) / (tp+tn+fp+fn) |  (fp - type 1 error & fn - type 2 error) 
+	precission = tp / predicted yes  == tp / tp + fp 
+	recall = tp /actual yes == tp /tp+fn
+	f1 score = 2 * (precision * recall)/ (precision+ recall)
+
+overfitting -- trian the model with more attribute 
+	technique to reduce overfit - pca | regualarization | ensamble learning | cross validataion | drop out the neurons
+	low bias high variance  | bias ---- trainin data 
+	bias == model.score(x_train, y_train) 
+	
+underfitting - train the model with less atribute 
+	technique to reduce underfit -- add more relavant attribute to the dataset
+	high bias low variance 
+	variacen - testing data 
+	variance = model.score(x_test,y_test)
+
+best fit -- train the model releavant attribute 
+	high bias high  variance ( bias - 90, variance - 90, ac - 90) 
+		low bias low varince 
+-----
+CLASSIFICATION ALGORITHM LIST -->
+-----
+Logistic regression 
+Knn classifier 
+Svm classifier 
+Naive bayes algorithm
+
+TREE BASED ALGORITHM
+	Decission tree 
+		Ensambel learning 
+					Bagging -- random foreste
+					Boosting -- xgboost, lgbm 
+
+historical data, how to pass future data ( validation ) to themode
+model prediction 
+when regression model prdicts -
+
+entire ml journey 2 algorithm which follow probabilith concept 
+	logistic regression 
+	naive bayes 
+	
+when we apply difference algo to same dataset accuracy will same or difference
+	why the reason math, parameter , algorithm on built set of rule, math concept 
+---
+LOGISTIC REGRESSION -->
+---
+very very powerfull algo in real world 
+logistic regression is come under classification or regression ? 
+
+ML -- Sigmoid curve ( use prob function to adjut the outler if the dataset has) it give best accuracy 
+Sigmoid activation function 
+why we called logistice regression is classifcaiton model -- classifcation model 
+
+=== 28th 	
 
 
 

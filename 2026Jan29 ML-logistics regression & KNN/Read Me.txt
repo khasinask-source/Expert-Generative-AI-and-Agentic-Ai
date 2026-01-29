@@ -1,0 +1,40 @@
+logistic logit or maxent classifier 
+		how to predict validation data 
+		validation data vs live data 
+		3 phase model testing will perform 
+		mean of it 
+		bunch of classification model 
+		best accuracy model & best model testing & best avg score 
+		pickle 
+		deploy
+					
+	
+=== KNN ALGORITHM ( k nearest neighbour) 
+		
+1- distance matrix 
+		Euclidian distance  
+		manhatten distance 
+		
+knn -- how the distance matrxix & nearest help to classify the data 
+
+knn classificaion -- based on k point we classify the new datapoint 
+knn regression -- based on k point we take mean of nearest neighbours 
+
+
+does outlier is impact to knn model -- yes | no  --- (yes ) 
+does outlier is impact to logistic regression -- (no)  cuz of sigmoid curve adjsute outlier 
+
+
+when i apply these 2 algo to 1 dataset ( accuracy will change) 
+when ever multi model 1 datraset 
+
+overfitting == technique
+
+logistic -- sigmoied categr, sovler - 
+knn -- distance, ed, md outleri will impaact 
+
+
+same dataset 
+knn - 95%    
+logistic -- 92.50%  
+svm -- 

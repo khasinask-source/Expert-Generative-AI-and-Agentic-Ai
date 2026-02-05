@@ -1,0 +1,8 @@
+"How to build decission tree from the dataset 
+how to declare root node | sub root node  | gini , entropy, information gain calculation 
+when we build the tree indepth overfitting problems will happen 
+remove the irrelavant atribute | ml parameters | when to best split and random split 
+random split -- every run accuracy are varies | best split 
+decission tree doesnot required feature scaling | dt model 
+dataset -- db or client -- datware house -- dv -- regress mode, classifiction 
+clusterin no dv | auc & roc curve is graph of confusion matrix | x axis -- FPR (sensitivity) vs 1-specificity ( TPR)"

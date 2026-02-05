@@ -1,0 +1,7 @@
+"imbalance data -- smote technique ( synthetic minority oversampling technique) 
+majority class vs minority class | downsample majority class & overfsampel minority classes 
+slr vs svr -- best fit line vs hyperplane | data point which close to the hyperplacen we plot the parael line 
+decission boudry or suport vector line | distance between 2 svr line is called maximu marginal distance 
+why we need to check max marginal distance cuz to adjust the more error  |
+svm code -- ac -- 95 | non liear to linear function -- kernal function -- poly, sigmoid, rbf, linera, liblinear, sag, saga | kernel function -- dimension increase | dimension reduction -- pca  
+naive bayes -- conditional prob, bayes theorem "

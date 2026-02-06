@@ -1,0 +1,6 @@
+"Ensamble learning -- Bagging, boosting 
+random forest -- bagging concept | how ensamble learning reduce overfitting 
+boosting is sequential cuz every time we built the tree with error 
+boosting -- xgboost & lgbm | dataset -- dv -- regression, classificaiton model 
+make sure one dataset you need to build all the models 
+random forest random state parameter must need to define random forest we are completed "

@@ -1,0 +1,14 @@
+RNN:
+
+
+SPEECH RECOGNATION CHATBOT:
+
+https://pypi.org/project/SpeechRecognition/
+
+
+
+WHATSAPP MESSAGES CAN BE SENT WITH THIS PYTHON CODE:
+
+https://pypi.org/project/pywhatkit/
+
+

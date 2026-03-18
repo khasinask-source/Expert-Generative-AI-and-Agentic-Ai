@@ -1,0 +1,13 @@
+ ULTRALYTICS YOLO DOCS -READYMADE CODE AVAILABLE IN 
+WEBSITE, CAN BE USED IN COLAB AND VS CODE
+
+https://docs.ultralytics.com/datasets/
+
+
+few more codes by trainer:
+
+https://github.com/kodigitaccount/Ultralytics_Yolo
+
+
+
+https://github.com/kodigitaccount/ultralytics-yolo/tree/main

@@ -1,0 +1,14 @@
+import huggingface_hub
+
+# Log in to Hugging Face with the provided token
+huggingface_hub.login(token="")
+
+
+
+https://en.wikipedia.org/wiki/Stable_Diffusion
+
+hugging face stable diffusion models to use in colab
+
+https://huggingface.co/models?pipeline_tag=text-to-speech&sort=trending&search=stable+diffusion
+
+user name: khasina.sk@gmail.com

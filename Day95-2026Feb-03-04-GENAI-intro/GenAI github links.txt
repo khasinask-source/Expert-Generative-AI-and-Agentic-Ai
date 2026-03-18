@@ -1,0 +1,6 @@
+GENAI
+
+https://github.com/openai/CLIP
+
+https://github.com/CompVis/taming-transformers
+

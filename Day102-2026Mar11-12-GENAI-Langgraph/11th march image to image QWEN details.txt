@@ -1,0 +1,75 @@
+
+11th Mar
+
+IMAGE TO IMAGE QWEN MODEL
+
+as per provided link
+
+
+
+
+LANGGRAPH WORKINGS:
+
+1ST WORKING CODE:
+
+pip install -U langgraph
+
+from langgraph.graph import StateGraph, END
+from typing import TypedDict
+from IPython.display import Image, display
+
+
+class MyState(TypedDict):
+    message: str
+# Define the start node
+def start_node(state: MyState) -> MyState:
+    print("Start node received:", state["message"])
+    # Process or pass the message to the end node
+    return {"message": state["message"] + " -> processed by start"}
+# Define the end node
+def end_node(state: MyState) -> MyState:
+    print("End node received:", state["message"])
+    return state
+# Build the graph
+builder = StateGraph(MyState)
+
+# Define the flow
+builder.set_entry_point("start")
+builder.add_edge("start", "end")
+builder.add_edge("end", END)  # END is a special marker for graph completion
+
+# Add nodes
+builder.add_node("start", start_node)
+builder.add_node("end", end_node)
+# Define the flow
+builder.set_entry_point("start")
+builder.add_edge("start", "end")
+builder.add_edge("end", END)  # END is a special marker for graph completion
+# Compile the graph
+graph = builder.compile()
+# Run the graph
+result = graph.invoke({"message": "Hello LangGraph"})
+print("Final result:", result["message"])
+
+
+2ND CODE WORKING WITH GROQ:
+
+#pip install langgraph langsmith
+
+pip install langchain langchain_groq langchain_community
+
+
+from langchain_groq import ChatGroq
+def chatbot(state:State):
+  return {"messages":llm.invoke(state['messages'])}
+graph_builder.add_node("chatbot",chatbot)
+graph_builder.add_edge(START,"chatbot")
+graph_builder.add_edge("chatbot",END)
+from IPython.display import Image, display
+try:
+  display(Image(graph.get_graph().draw_mermaid_png()))
+except Exception:
+  pass
+
+
+
